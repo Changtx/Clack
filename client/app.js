@@ -34,12 +34,6 @@ Template.listings.helpers({
 });
 
 
-Template.channel.events({
-  'click .channel': function (e) {
-    Session.set('channel', this.name);
-  }
-});
-
 
 Template.channel.helpers({
   active: function() {
